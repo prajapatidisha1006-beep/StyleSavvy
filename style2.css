@@ -26,26 +26,35 @@ header p{
     margin:auto;
     padding:50px;
     align-items: center;
+    justify-items: center;
     
 }
 main{
     max-height: 70vh;
     text-align: center;
     align-items: center;
+    justify-items: center;
 }
 footer{
     align-items: center;
     font-size: 1.5em;
     text-align: center;
     background-color: indigo;
-    padding:30px;
+    margin:auto;
     
 }
 .box1{
-    width:300px;
+    width: 300px;
     height:500px;
-    margin:10px;
-    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    padding:30px;
+    display:flex;
+    justify-items: center;
+    position:relative;
+    display:block;
+    justify-content: center;
 }
 
 
