@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="form-body">
+    <section class="box">
+
+    <h2>User Information Form</h2>
+
+    <form action="/submit" method="post" class="form">
+        
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+        <small>Format: 10 digits only</small><br><br>
+
+      
+        <label for="localDetails">Local Details:</label><br>
+        <textarea id="localDetails" name="localDetails" rows="4" cols="50" placeholder="Enter address or local info here..." required></textarea><br><br>
+
+        <label for="feedback">feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder=" share your experience with us... " required></textarea>
+        <br>
+        <br>
+
+       
+        <input type="submit" value="Submit">
+    </form>
+
+    </section>
+
+</body>
+</html>
