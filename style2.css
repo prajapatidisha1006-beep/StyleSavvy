@@ -30,7 +30,7 @@ header p{
     
 }
 main{
-    max-height: 70vh;
+    max-height: 100%;
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -40,7 +40,8 @@ footer{
     font-size: 1.5em;
     text-align: center;
     background-color: indigo;
-    margin:auto;
+    
+    margin-bottom: 0%;
     
 }
 .box1{
